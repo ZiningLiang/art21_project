@@ -1,0 +1,28 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+
+.image-stack
+{
+	Display: grid;
+	Grid-template-columns: repeat(12, 1fr);
+	Position: relative;
+}
+
+.image-stack__item—top
+{
+	Grid-column: 1/span 8;
+	Grid-row: 1; // it must be on the same row as the second image
+	Padding-top: 20% // this places the picture down and keeps it proportional.
+	z-index: 1; //this renders the image on the top of the bottom photo.
+}
+
+.image-stack__item—bottom
+{
+	grid-column: 4
+	grid-row: 1; //this makes the image appear on the same row
+}
