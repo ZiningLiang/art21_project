@@ -1,35 +1,82 @@
 .question-container{
 
 	background: lightblue;
-	border: 3px solid blue;
 	margin: 50px;
 	padding: 5px;
-	font-family: monospace;
-	font-size: 20px;
 	width:800px;
+	line-height: 1.2;
 	text-align:center;
 }
 
 .question{
-	color: darkblue;
-	text-indent: 30px;
-	font-size: 25px;
-	font-family: Brush Script MT;
-	padding:5px;
+	font-weight: bold;
 }
 
 .answer{
-	color: deeppink;
-	text-indent: 80px;
-	font-size: 30px;
+	font-weight: normal;
+	line-height: 1;
 }
 
 .name{
 	color: black;
 	font-style: italic;
-	
 }
 
+.Q1{
+	color: darkblue;
+	text-indent: 30px;
+	font-family: "courier";
+	padding:5px;
+}
+
+.Q2{
+	color: purple;
+	text-indent: 30px;
+	font-family: "Verdana";
+	padding:5px;
+	line-height: 2;
+}
+
+.Q2answer{
+	color:red;
+	font-family:"Times";
+	text-decoration: underline;
+    text-decoration-style: double; 
+}
+
+.Q3{
+	color: green;
+	text-indent: 30px;
+	font-size: 25px;
+	font-family: "Indie Flower";
+	padding:5px;
+	line-height: 2;
+	text-decoration: underline;
+}
+
+.Q4{
+	font-family: "luimp";
+	font-size: 25px;
+	line-height: 3;
+	color: #006576;
+}
+
+.Q5{
+	background-color: #006576;
+	color:white;
+	line-height: 4;
+	border:3px solid white;
+	padding:10px;
+}
+
+/*non google font*/
+
+@font-face {
+	font-family: "luimp";
+    src: url("luimp.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}		
 /*
 body{
 	background-color:blue;
