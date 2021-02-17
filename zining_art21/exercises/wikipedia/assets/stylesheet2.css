@@ -1,5 +1,5 @@
 body{
-	background-image: url("http://thereelthings.com/wp-content/uploads/2019/02/hans-zimmer-1.gif");
+	background-image: url("zimmer.gif");
 }
 
 a:link{
@@ -81,7 +81,7 @@ p {
 }
 
 .intro{
-	background-image: url("https://s.yimg.com/ny/api/res/1.2/l_bU6ufeeHjwPlkPX__ENQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY1MC4wODAxODMyNzYwNTk1/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-01/fa375760-3135-11ea-b7fb-eab751a53884")
+	background-image: url("https://s.yimg.com/ny/api/res/1.2/l_bU6ufeeHjwPlkPX__ENQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY1MC4wODAxODMyNzYwNTk1/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-01/fa375760-3135-11ea-b7fb-eab751a53884");
 }
 
 .tldr{
