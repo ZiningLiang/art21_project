@@ -1,0 +1,158 @@
+body{
+	background-image: url(http://thereelthings.com/wp-content/uploads/2019/02/hans-zimmer-1.gif)
+}
+
+a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+	color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1{
+	text-align : center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 1px #ababab;
+    font-family: 'Reggae One', cursive;
+}
+
+h2{
+	
+	font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ababab;
+    color:red;
+    
+}
+
+h3{
+	font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color:red;
+    text-shadow: 1px 1px 1px #ababab;
+}
+
+
+h4{
+	text-align: left;
+	max-height: 60px;
+	width: 50px;
+	margin-top: 10px;
+	font-weight:normal;
+    font-size: 10px;
+    writing-mode: vertical-rl;
+    border-right: solid red 3px;
+    margin-right:zero;
+    color:red;
+}
+
+p {
+  margin-top: 5px ;
+  margin-bottom: zero;
+  font-weight: 200;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper{
+	padding:10px;
+	margin:0 auto;
+	display:flex;
+	flex-direction:column;
+	width: 70%;
+	height: 90%;
+	text-align: justify;
+	font-family: 'Reggae One', cursive;
+	color:white;
+}
+
+.intro{
+	background-image: url("https://s.yimg.com/ny/api/res/1.2/l_bU6ufeeHjwPlkPX__ENQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY1MC4wODAxODMyNzYwNTk1/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-01/fa375760-3135-11ea-b7fb-eab751a53884")
+}
+
+.tldr{
+	line-height: 1.25;
+	font-size:15px;
+	width:45%;
+	margin:0;
+	color:white;
+	padding:20px;
+}
+
+.secondary{
+	margin:0 auto;
+	display:flex;
+	flex-direction:column;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.1;
+	background:rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+
+.thirdtiary{
+	margin:0 auto;
+	display:flex;
+	flex-direction:column;
+	padding:10px;
+	width: 90%;
+	border-radius: 10px;
+	border-top: grey solid 1px;
+	margin-bottom:20px;
+	text-indent: 50px;
+	opacity: 1;
+}
+
+.fourth{
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	margin: auto auto auto auto;
+}
+
+.nested4 {
+	display: flex;
+	flex-direction: row;
+	margin-bottom:20px;
+	border-radius: 10px;
+	border-top: white solid 1px;
+	border-right: grey solid 2px;
+}
+
+.award{
+	margin-left: 3px;
+	margin-bottom: 10px;
+	line-height: 1;
+	text-indent: 10px;
+	font-size: 12px;
+	margin-top: 7px;
+}
+
+.year{
+	font-style: italic;
+	text-decoration: underline dotted 1px;
+
+}
+
+.quote{
+	width: 90%;
+	margin: 0 auto;
+	font-style: italic;
+	font-size: 90%;
+	border-top:dotted grey 1px;
+}

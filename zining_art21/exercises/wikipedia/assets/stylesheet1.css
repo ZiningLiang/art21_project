@@ -1,0 +1,115 @@
+body{
+	background-color: purple;
+}
+
+h1{
+	text-align : center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 1px #ababab;
+}
+
+h2{
+	border-bottom:purple groove 10px;
+	font-weight: 600;
+    font-size: 25px;
+}
+
+h3{
+	font-weight: 600;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+
+h4{
+	text-align: right;
+	max-width:95px;
+	margin-top: 10px;
+	font-weight: 200;
+    font-size: 20px;
+}
+
+p {
+  margin-top: 5px ;
+  margin-bottom: zero;
+  font-weight: 200;
+}
+
+.wrapper{
+	padding:10px;
+	margin:0 auto;
+	display:flex;
+	flex-direction:column;
+	width: 70%;
+	height: 90%;
+	text-align: justify;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+}
+
+.intro{
+	line-height: 1.25;
+	font-size:120%;
+	width:96%;
+	margin:0 auto;
+}
+
+.secondary{
+	margin:0 auto;
+	display:flex;
+	flex-direction:column;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.1;
+	color:purple;
+}
+
+.thirdtiary{
+	color:black;
+	margin:0 auto;
+	display:flex;
+	flex-direction:column;
+	width: 90%;
+}
+
+.fourth{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: auto auto auto auto;
+	color:purple;
+}
+
+.nested4 {
+	display: flex;
+	flex-direction: row;;
+}
+
+.award{
+	color:black;
+	margin-left: 7px;
+	margin-bottom: 10px;
+	line-height: 1;
+	text-indent: 10px;
+	font-size: 13px;
+	margin-top: 7px;
+}
+
+.year{
+	font-style: italic;
+	text-decoration: underline dotted 1px;
+
+}
+
+.quote{
+	width: 90%;
+	margin: 0 auto;
+	font-style: italic;
+	font-size: 90%;
+	border-top:dotted grey 1px;
+}
