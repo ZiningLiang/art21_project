@@ -1,0 +1,110 @@
+.pasta {
+  	background-image: url("https://static01.nyt.com/images/2017/04/05/dining/05COOKING-NIGMEATBALLS2/05COOKING-NIGMEATBALLS2-videoSixteenByNineJumbo1600.jpg");
+ 	background-color: #cccccc;
+ 	height:450px;
+ 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+} 
+
+.party{
+  	font-family: antiquarian-scribe, sans-serif;
+  	text-shadow: 2px 2px 12px #E2D9C5;
+  	color:black; 
+  	text-align: center;
+  	position:absolute;
+  	top:50%;
+  	left:50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #8B3422;
+  max-height: 400px;
+}
+
+.container div {
+  margin: 20px 20px;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.when{
+	background-color: #6F7714;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight:100;
+	font-size:50%;
+	border-left: 3px #DBAB85 solid;
+	padding:5px;
+}
+
+.where{
+	background-color: #E2D9C5;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight:100;
+	font-size:50%;
+	text-align: center;
+}
+
+.what{
+	background-color: #AB5235;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight:100;
+	font-size:50%;
+	text-align: right;
+	border-right: 3px #DBAB85 solid;
+	padding:5px;
+}
+
+.subtitle{
+	font-family: gill-sans-nova, sans-serif;
+	font-weight:400;
+	font-size:150%;
+	text-shadow: 2px 2px 5px #DBAB85;
+	text-decoration: underline 2px;
+	text-decoration-color: #DBAB85;     
+}
+
+h1{
+	font-size:1.5em;
+}
+
+/*color: #8B3422, #AB5235, #DBAB85, #E2D9C5, #6F7714;*/
+
+/* The body's font-size is smaller by default */
+body {
+  font-size: 16px;
+  margin:30px;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 70px;
+  }
+}
+
+/*fonts{
+	font-family: antiquarian-scribe, sans-serif;
+	font-family: gill-sans-nova, sans-serif;
+}*/
+
