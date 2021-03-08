@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0turn);
+    height:20px;
+    border-radius:50%;
+   }
+  100% {
+    transform: rotate(1turn);
+    height:800px;
+  }
+}
+
+@keyframes colorchange {
+	0%{
+		fill:default;
+	}
+	100%{
+		fill:#6cefef;
+	}
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#flower {
+  animation: spin 2s  infinite;
+}
+
+#flower path, #flower circle {
+  animation: colorchange 2s  ease-in-out infinite alternate, fade 2s ease-in infinite alternate-reverse;
+}
+
+#flower:hover {
+  cursor: pointer;
+  animation-direction: reverse;
+  background-color: black;
+}
+
