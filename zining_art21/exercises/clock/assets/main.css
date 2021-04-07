@@ -1,0 +1,52 @@
+.container{
+  left: 40vw;
+  top: 8vw;
+  position: absolute;
+}
+
+
+.hour{
+	height:250px;
+	width:250px;
+	opacity: 50%;
+	position: absolute;
+}
+
+.minute{
+	height:400px;
+	width:40px;
+	opacity: 50%;
+	position: absolute;
+}
+
+.second{
+	height:20px;
+	width:100px;
+	border-radius: 50%;
+	opacity: 50%;
+	position: absolute;
+}
+
+#hour{
+	animation: colorchange 3600s infinite ease-out;
+}
+
+#minute{
+	animation: colorchange 60s infinite ease-out;
+}
+
+#second{
+	animation: colorchange 1s infinite ease-out;
+}
+
+
+@keyframes colorchange {
+	0%{background-color: red;}
+	14%{background-color: orange;}
+	28%{background-color: yellow;}
+	42%{background-color: green;}
+	56%{background-color: teal;}
+	70%{background-color: blue;}
+	84%{background-color: purple;}
+	100%{background-color: red;}
+}
