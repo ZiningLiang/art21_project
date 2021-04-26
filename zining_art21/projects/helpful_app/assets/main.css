@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  cursor:url("cloud.png"), auto;
+  background: #efeff2;
+}
+
+
+
+.btn-liquid {
+  display: inline-block;
+  position: relative;
+  width: 8em;
+  height: 1.75em;
+  border-radius: 40%;
+  color: #efeff2;
+  font: 600 4em "Rubik", sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-duration: .5s;
+vertical-align: middle
+}
+
+.btn-liquid .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-liquid canvas {
+  position: absolute;
+  top: -1em;
+  right: -1em;
+  bottom: -1em;
+  left: -1em;
+  z-index: 1;
+  background: #efeff2;
+  cursor: url("mag.png"), auto; 
+
+}
+
+a:hover{
+  color:#E92EFB;
+  cursor:url("spark2.png"), auto;
+  opacity: 1;
+
+ }
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 1200px) {
+  h1{
+    font-size:40px;
+  }
+
+  div.title{
+    font-size:22px;
+  }
+
+  div.description{
+    font-size:20px;
+  }
+  div.column {
+    flex: 40%;
+    max-width: 50%;
+    padding-bottom:10%;
+  }
+}
+
+@media (max-width: 950px) {
+  h1{
+    font-size:35px;
+  }
+
+  div.title{
+    font-size:20px;
+  }
+  div.description{
+    font-size:16px;
+  }}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  h1{
+    font-size:30px;
+  }
+
+  div.title{
+    font-size:16px;
+  }
+
+  div.description{
+    font-size:14px;
+  }
+
+  div.column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
