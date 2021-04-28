@@ -1,0 +1,340 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+iframe{
+  margin-top:5em;
+  display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color:black;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+}
+
+.nav{
+  border-bottom: solid 3px;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav .link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Sans-serif;
+  color: #333;
+  margin: 0 10px;
+}
+
+
+.container{
+  margin-top:5em;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+.blocks {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.title{
+  margin:0 auto;
+  width:50%;
+  text-align: center;
+}
+
+.title h1{
+  margin: 0;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  text-align: center; 
+  border-radius:5px;
+  border:solid 2px black;
+  padding:.25vw;
+  font-size: 3vw;
+    box-shadow: 2px 2px 3px white;
+
+}
+
+
+.grid{
+  margin:auto;
+  width: 90%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: .75fr auto auto auto auto auto .75fr ;
+  grid-template-columns: .75fr 1fr 1fr 1fr 1fr 1fr 1fr .75fr;
+}
+
+.hero_img{
+  grid-row: 3/ 6;
+  grid-column: 3/7;
+  width:100%;
+}
+
+@keyframes glow{
+  50%{box-shadow:4px 4px 3px yellow;}
+}
+
+h2:hover{
+  animation:glow 2s;
+  animation-iteration-count: 3;
+}
+
+
+.project_name1{
+  grid-row: 2/4;
+  grid-column: 6/8;
+  transform: rotate(-30deg);
+  width:fit-content;
+  height: 5em;
+}
+
+.project_name1 h2{
+  background-color: white;
+  text-align: center;
+  font-size:3vw;
+  border-radius:5px;
+  border:solid 2px black;
+  padding:.25vw;
+  letter-spacing: 1.25px;
+  box-shadow: 2px 2px 3px white;
+}
+
+.assignment{
+  grid-row: 6;
+  grid-column: 6;
+  width: max-content;
+  margin-top:-25%;
+  height:fit-content;
+}
+
+.assignment h3{
+  background-color: white;
+  text-align: center;
+  font-size:1.5vw;
+  border-radius:5px;
+  border:solid 2px black;
+  padding:.05vw;
+
+}
+
+.description{
+  grid-row: 5/7;
+  grid-column: 2/4;
+  width: 50%;
+  margin-left: 30%;
+}
+
+.description p{
+  background-color: white;
+  font-size:1vw;
+  border-radius:5px;
+  border:solid 2px black;
+  padding:1.1vw;
+  box-shadow: 1px 1px 2px lightgrey;
+}
+
+.project_name2{
+  grid-row: 3/4;
+  grid-column: 5/8;
+  transform: rotate(10deg);
+  width:fit-content;
+  height: 5em;
+}
+
+.project_name2 h2{
+  background-color: white;
+  text-align: center;
+  font-size:3vw;
+  border-radius:5px;
+  border:solid 2px black;
+  padding:.25vw;
+  letter-spacing: 1.25px;
+  box-shadow: 2px 2px 3px white;
+}
+
+.project_name3{
+  grid-row: 3/5;
+  grid-column: 5/8;
+  transform: rotate(-15deg);
+  width:fit-content;
+  height: 5em;
+  margin-left: 40%;
+}
+
+.project_name3 h2{
+  background-color: white;
+  text-align: center;
+  font-size:3vw;
+  border-radius:5px;
+  border:solid 2px black;
+  padding:.25vw;
+  letter-spacing: 1.25px;
+  box-shadow: 2px 2px 3px white;
+}
+
+.blocks:nth-child(2) {
+  background: white;
+}
+.blocks:nth-child(3) {
+  background: lightblue;
+}
+.blocks:nth-child(4) {
+  background: #FFA24D;
+}
+.blocks:nth-child(5) {
+  background: #F7A7FF;
+}
+
+.grid2{
+  margin-left:auto;
+  margin-right:auto;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+.exercises{
+  width:90%;
+  font-size:3vw;
+  letter-spacing: 3px;
+  margin-left: 5%;
+  margin-top:10%;
+  margin-bottom: 5%;
+}
+.grid2 .screen {
+  max-width: 28vw;
+  padding:1vw;
+}
+
+.grid2 .vid{
+    max-width: 28vw;
+  padding:1vw;
+}
+
+.page_title{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    width:70%;
+}
+
+.page_title h1{
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+
+.content{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+video{
+  margin:auto;
+  width:100%;
+}
+
+.vid{
+  margin-right: auto;
+  margin-left:auto;
+  padding: 5px;
+  max-height:500px;
+}
+
+.screen{
+  margin-right: auto;
+  margin-left:auto;
+  padding: 5px;
+  max-height:500px;
+  max-width: 80%;
+  object-fit: fill;
+}
+
+.vid,.screen:hover{
+  cursor:grabbing;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  animation: flexmove 20s infinite;
+  overflow: hidden;
+  margin-top:25px;
+}
+
+.flex-container > img {
+    width: 250px;
+    height: 250px;
+  margin-right: 35px;
+  object-fit: contain;
+}
+
+.flex-container > video {
+    width: 250px;
+    height: 250px;
+    margin-right: 35px;
+}
+
+.start1 {
+  animation: bannermove 16s linear infinite;
+}
+
+.start2 {
+  animation: bannermove 25s linear infinite;
+}
+
+.start3 {
+  animation: bannermove 10s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {margin-left: 0px;}
+  100% {margin-left: -1364px;}
+}
+
+
+/* grid template referenced https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
+/*banner moving animation referenced Ashley's Fan Page project*/
